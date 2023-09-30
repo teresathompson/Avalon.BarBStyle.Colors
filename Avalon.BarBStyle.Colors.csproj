@@ -6,9 +6,18 @@
     <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
     <UseWinUI>true</UseWinUI>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Title>BarBStyle</Title>
+    <PackageTags>pink theme</PackageTags>
+    <PackageIcon>high-heels.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="BarBTheme\BarBResourceDictionary.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\high-heels.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
