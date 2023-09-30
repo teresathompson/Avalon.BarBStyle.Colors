@@ -2,6 +2,8 @@
 
 # Avalon.BarBStyle.Colors NuGet Package
 
+![cute-girl-doll-ai-generatedsmall](https://github.com/teresathompson/Avalon.BarBStyle.Colors/assets/13683620/2624221a-87e9-450f-9416-af46de07943d)
+
 
 ## Description
 
@@ -45,6 +47,7 @@ Once you've installed the BarBStyle NuGet package, you can apply the theme to yo
 
 ``` <Button Style="{StaticResource AccentButtonStyle}">Click Me</Button>```
 
+![BarbAccent](https://github.com/teresathompson/Avalon.BarBStyle.Colors/assets/13683620/b0674212-5f64-435a-b14c-680acd892c8d)
 
 
 ## Contributing
