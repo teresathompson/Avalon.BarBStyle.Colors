@@ -2,15 +2,21 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Avalon.BarBStyle.Colors</id>
-    <version>1.0.0-beta.1</version>
+    <version>1.0.0-beta.1.0</version>
     <authors>Teresa Anne Thompson</authors>    
-    <description>Pink theme for your app</description>
+    <description>Are you tired of the same old, boring, monochromatic themes in your life? Yearning for a digital world that's as vibrant as your inner unicorn riding a flamingo on a rainbow?
+      Look no further, because we've got just the thing for you!</description>
+    <projectUrl>https://github.com/teresathompson/Avalon.BarBStyle.Colors</projectUrl>
+    <dependencies>
+      <dependency id="Microsoft.WindowsAppSDK" version="1.3.230602002" />
+      <dependency id="Microsoft.Windows.SDK.BuildTools" version="10.0.22621.755" />
+    </dependencies>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <icon>images\high-heels.png</icon>   
   </metadata>
   <files>
     <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />  
-    <file src="images\high-heels.png" target="images\" />          
+    <file src="images\high-heels_pink.png" target="images\" />          
   </files>
 </package>
 

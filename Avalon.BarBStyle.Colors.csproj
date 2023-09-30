@@ -7,6 +7,7 @@
     <UseWinUI>true</UseWinUI>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Title>BarBStyle</Title>
+    <description>Pink theme for your app</description>
     <PackageTags>pink theme</PackageTags>
     <PackageIcon>high-heels.png</PackageIcon>
   </PropertyGroup>
@@ -19,7 +20,7 @@
       <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.755" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\high-heels.png" Pack="true" Visible="false" PackagePath="images\high-heels.png" />
+    <None Include="..\high-heels_pink.png" Pack="true" Visible="false" PackagePath="images\high-heels_pink.png" />
   </ItemGroup>
   <ItemGroup>
     <None Update="README.md">
