@@ -9,7 +9,7 @@
     <Title>BarBStyle</Title>
     <description>Pink theme for your app</description>
     <PackageTags>pink theme</PackageTags>
-    <PackageIcon>high-heels.png</PackageIcon>
+    <PackageIcon>high-heels_pink.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="BarBTheme\BarBResourceDictionary.xaml" />
