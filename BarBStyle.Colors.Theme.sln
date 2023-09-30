@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avalon.BarBStyle.Colors", "Avalon.BarBStyle.Colors.csproj", "{70EE0AC2-85F5-4090-92C5-9EA51C3D4E33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarBStyle.Color.Theme", "BarBStyle.Color.Theme.csproj", "{70EE0AC2-85F5-4090-92C5-9EA51C3D4E33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
