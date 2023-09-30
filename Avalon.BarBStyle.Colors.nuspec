@@ -10,6 +10,6 @@
   </metadata>
   <files>
     <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />  
-    <file src="Images\high-heels.png" target="lib" />          
+    <file src="Images\high-heels.png" target="content/Images" />          
   </files>
 </package>
