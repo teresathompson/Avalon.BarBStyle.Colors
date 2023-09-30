@@ -21,7 +21,7 @@ Install-Package Avalon.BarBStyle.Colors
 
 Once you've installed the BarBStyle NuGet package, you can apply the theme to your application by following these steps:
 
-1. Reference the package in your App.xaml file:
+1. Reference the package in your App.xaml file :
 
 ```<Application.Resources>
         <ResourceDictionary>
