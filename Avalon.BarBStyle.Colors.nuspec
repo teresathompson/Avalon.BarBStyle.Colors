@@ -6,7 +6,7 @@
     <authors>Teresa Anne Thompson</authors>    
     <description>Pink theme for your app</description>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <icon>images\icon.pnghigh-heels.png</icon>   
+    <icon>images\high-heels.png</icon>   
   </metadata>
   <files>
     <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />  
