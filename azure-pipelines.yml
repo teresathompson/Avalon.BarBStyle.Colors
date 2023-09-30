@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: 'BarBStyle.Colors.Theme.csproj'
+  solution: 'BarBStyle.Color.Theme.csproj'
   buildPlatform: 'x64'
   buildConfiguration: 'Release'
 
