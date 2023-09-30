@@ -5,8 +5,7 @@
 
 ## Description
 
-Introducing the Barbie Color Theme: the chicest, sassiest, and most fabulous color theme in the digital universe. Inspired by the iconic Barbie doll, this theme is the ultimate way to infuse your apps, websites, 
-or projects with a heavy dose of pink power, and a sprinkle of glitter (virtual glitter, of course).
+Introducing the Barbie Color Theme: the chicest, sassiest, and most fabulous color theme in the digital universe. Inspired by the iconic Barbie doll, this theme is the ultimate way to infuse your apps with a heavy dose of pink power, and a sprinkle of glitter (virtual glitter, of course).
 
 ## Installation
 
@@ -39,11 +38,12 @@ Once you've installed the BarBStyle NuGet package, you can apply the theme to yo
 ## Features
 
 - **Stunning Pink Color Palette**: The colors were selected and carefully tested to have the perfect balance of vibrancy and contrast, while still being easy on the eyes.
+- **14 shades of Pink**: The theme includes 14 shades of pink. You don't need to apply the style locally to each control.
 
 
 ## Example
 
-' <Button Style="{StaticResource AccentButtonStyle}">Click Me</Button>'
+``` <Button Style="{StaticResource AccentButtonStyle}">Click Me</Button>```
 
 
 
