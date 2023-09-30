@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: 'ProjetoExemploNuGet.csproj'
+  solution: 'Avalon.BarBStyle.Colors.csproj'
   buildPlatform: 'x64'
   buildConfiguration: 'Release'
 
