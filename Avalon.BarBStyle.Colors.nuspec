@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
-    <id>Avalon.BarBStyle.Colors</id>
+    <id>Avalon.TAT.BarBStyle.Colors</id>
     <version>1.0.0-beta.1.0</version>
     <authors>Teresa Anne Thompson</authors>    
     <description>Are you tired of the same old, boring, monochromatic themes in your life? Yearning for a digital world that's as vibrant as your inner unicorn riding a flamingo on a rainbow?
