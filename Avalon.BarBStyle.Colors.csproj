@@ -19,7 +19,7 @@
       <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.755" />
   </ItemGroup>
   <ItemGroup>
-  <None Include="images\high-heels.png" Pack="true" PackagePath="\"/>
+    <None Include="..\high-heels.png" Pack="true" Visible="false" PackagePath="images\high-heels.png" />
   </ItemGroup>
   <ItemGroup>
     <None Update="README.md">
