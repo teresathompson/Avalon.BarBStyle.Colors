@@ -12,7 +12,7 @@
       <dependency id="Microsoft.Windows.SDK.BuildTools" version="10.0.22621.755" />
     </dependencies>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <icon>images\high-heels.png</icon>   
+    <icon>images\high-heels_pink.png</icon>   
   </metadata>
   <files>
     <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />  
