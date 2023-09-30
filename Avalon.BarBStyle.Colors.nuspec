@@ -9,6 +9,7 @@
     <icon>Images/high-heels.png</icon>   
   </metadata>
   <files>
-    <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />      
+    <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />  
+    <file src="Images\high-heels.png" target="lib" />          
   </files>
 </package>
