@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: 'Avalon.BarBStyle.Colors.csproj'
+  solution: 'BarBStyle.Colors.Theme.csproj'
   buildPlatform: 'x64'
   buildConfiguration: 'Release'
 
@@ -44,7 +44,7 @@ steps:
   displayName: 'Empacotando NuGet'
   inputs:
     command: 'pack'
-    packagesToPack: '**/Avalon.BarBStyle.Colors.nuspec'
+    packagesToPack: '**/BarBStyle.Colors.Theme.nuspec'
     versioningScheme: 'byPrereleaseNumber'
     majorVersion: '1'
     minorVersion: '0'
