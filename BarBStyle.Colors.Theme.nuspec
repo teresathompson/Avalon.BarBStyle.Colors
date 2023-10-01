@@ -3,7 +3,8 @@
   <metadata>
     <id>BarBStyle.Colors.Theme</id>
     <version>1.0.0-beta.1.0</version>
-    <authors>Teresa Anne Thompson</authors>    
+    <authors>Teresa Anne Thompson</authors>
+    <readme>README.md</readme>    
     <description>Are you tired of the same old, boring, monochromatic themes in your life? Yearning for a digital world that's as vibrant as your inner unicorn riding a flamingo on a rainbow?
       Look no further, because we've got just the thing for you!</description>
     <projectUrl>https://github.com/teresathompson/Avalon.BarBStyle.Colors</projectUrl>
@@ -16,8 +17,10 @@
   </metadata>
   <files>
     <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />  
-    <file src="images\high-heels_pink.png" target="images\" />          
+    <file src="images\high-heels_pink.png" target="images\" /> 
+    <file src="README.md" target="" />         
   </files>
 </package>
+
 
 
