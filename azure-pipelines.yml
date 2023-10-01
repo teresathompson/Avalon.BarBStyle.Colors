@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: 'BarBStyle.Colors.Theme.csproj'
+  solution: 'BarBStyle.Color.Theme.csproj'
   buildPlatform: 'x64'
   buildConfiguration: 'Release'
 
@@ -61,9 +61,11 @@ steps:
 #     #publica para FeedProjetoExemplo
 #     publishVstsFeed: '458c39a4-b54f-4f21-bf7e-603c9204f311'
 
+    
 - task: NuGetCommand@2
+  displayName: 'Enviando NuGet'
   inputs:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
     nuGetFeedType: 'external'
-    publishFeedCredentials: 'PublishBarBNuGet'
+    publishFeedCredentials: 'BarbBStyle'
