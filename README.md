@@ -1,6 +1,6 @@
 
 
-# Avalon.BarBStyle.Colors NuGet Package
+# BarBStyle.Colors.Theme NuGet Package
 
 ![cute-girl-doll-ai-generatedsmall](https://github.com/teresathompson/Avalon.BarBStyle.Colors/assets/13683620/2624221a-87e9-450f-9416-af46de07943d)
 
@@ -14,7 +14,7 @@ Introducing the Barbie Color Theme: the chicest, sassiest, and most fabulous col
 You can install this NuGet package using the NuGet Package Manager Console:
 
 ```bash
-Install-Package Avalon.BarBStyle.Colors
+Install-Package BarBStyle.Colors.Theme
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ Once you've installed the BarBStyle NuGet package, you can apply the theme to yo
             <ResourceDictionary.MergedDictionaries>
                 <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
                 <!-- Other merged dictionaries here -->
-                <ResourceDictionary Source="ms-appx:///Avalon.BarBStyle.Colors/BarBTheme/BarBResourceDictionary.xaml"/>
+                <ResourceDictionary Source="ms-appx:///BarBStyle.Colors.Theme/BarBTheme/BarBResourceDictionary.xaml"/>
             </ResourceDictionary.MergedDictionaries>
             <!-- Other app resources here -->
         </ResourceDictionary>
