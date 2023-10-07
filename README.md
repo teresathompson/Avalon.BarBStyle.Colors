@@ -2,12 +2,12 @@
 
 # BarBStyle.Colors.Theme NuGet Package
 
-![cute-girl-doll-ai-generatedsmall](images\BarBStyle.png)
+![cute-girl-doll-ai-generatedsmall](images/BarBStyle.png)
 
 
 ## Description
 
-Introducing the Barbie Color Theme: the chicest, sassiest, and most fabulous color theme in the digital universe. Inspired by the iconic Barbie doll, this theme is the ultimate way to infuse your apps with a heavy dose of pink power, and a sprinkle of glitter (virtual glitter, of course).
+Introducing the BarB Color Theme: the chicest, sassiest, and most fabulous color theme in the digital universe. Inspired by the iconic Barbie doll, this theme is the ultimate way to infuse your apps with a heavy dose of pink power, and a sprinkle of glitter (virtual glitter, of course).
 
 ## Installation
 
@@ -47,7 +47,8 @@ Once you've installed the BarBStyle NuGet package, you can apply the theme to yo
 
 ``` <Button Style="{StaticResource AccentButtonStyle}">Click Me</Button>```
 
-![BarbAccent](https://github.com/teresathompson/Avalon.BarBStyle.Colors/assets/13683620/b0674212-5f64-435a-b14c-680acd892c8d)
+![cute-girl-doll-ai-generatedsmall](images/AccentButtonBarBStyle.png)
+
 
 
 ## Contributing
