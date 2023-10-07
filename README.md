@@ -2,7 +2,7 @@
 
 # BarBStyle.Colors.Theme NuGet Package
 
-![cute-girl-doll-ai-generatedsmall](https://github.com/teresathompson/Avalon.BarBStyle.Colors/assets/13683620/2624221a-87e9-450f-9416-af46de07943d)
+![cute-girl-doll-ai-generatedsmall](images\BarBStyle.png)
 
 
 ## Description
