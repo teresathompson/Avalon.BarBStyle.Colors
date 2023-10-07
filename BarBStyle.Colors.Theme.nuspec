@@ -16,7 +16,10 @@
   </metadata>
   <files>
     <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />  
-    <file src="images\high-heels_pink.png" target="images\" /> 
+    <file src="images\high-heels_pink.png" target="images\" />
+    <file src="images\AccentButtonBarBStyle.png" target="images\" />
+    <file src="images\ListViewBarBStyle.png" target="images\" />
+    <file src="images\ListViewBarBStyle.png" target="images\" />
     <file src="README.md" target="" />         
   </files>
 </package>
