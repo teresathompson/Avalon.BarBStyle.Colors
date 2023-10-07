@@ -21,6 +21,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\high-heels_pink.png" Pack="true" Visible="false" PackagePath="images\high-heels_pink.png" />
+    <None Include="..\BarBStyle.png" Pack="true" Visible="false" PackagePath="images\BarBStyle.png" />
+    <None Include="..\AccentButtonBarBStyle.png" Pack="true" Visible="false" PackagePath="images\AccentButtonBarBStyle.png" />
+    <None Include="..\ListViewBarBStyle.png" Pack="true" Visible="false" PackagePath="images\ListViewBarBStyle.png" />
   </ItemGroup>
   <ItemGroup>
     <None Update="README.md">
