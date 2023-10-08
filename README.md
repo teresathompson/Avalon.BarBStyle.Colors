@@ -2,7 +2,7 @@
 
 # BarBStyle.Colors.Theme NuGet Package
 
-![cute-girl-doll-ai-generatedsmall](images/BarBStyle.png)
+<a href="https://imgur.com/HO23zQj"><img src="https://i.imgur.com/HO23zQj.jpg" title="source: imgur.com" /></a>
 
 
 ## Description
@@ -47,8 +47,7 @@ Once you've installed the BarBStyle NuGet package, you can apply the theme to yo
 
 ``` <Button Style="{StaticResource AccentButtonStyle}">Click Me</Button>```
 
-![cute-girl-doll-ai-generatedsmall](images/AccentButtonBarBStyle.png)
-
+<a href="https://imgur.com/JLxPjaN"><img src="https://i.imgur.com/JLxPjaN.png" title="source: imgur.com" /></a>
 
 
 ## Contributing
