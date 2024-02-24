@@ -62,18 +62,24 @@ steps:
 #     nuGetFeedType: 'external'
 #     publishFeedCredentials: 'BarbBStyle'
 
-- task: UseNode@1
-  inputs:
-    version: '14.x'
-    checkLatest: true
+- checkout: self
 
-- script: |
-    npm install -g conventional-changelog-cli
-    conventional-changelog -p angular -i $(Build.ArtifactStagingDirectory)/CHANGELOG.md -s
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      $releaseNotes = git log --pretty=format:"- %s [%h]%n" --no-merges
+
+      # Save release notes to a file
+      $releaseNotes | Out-File $(Build.ArtifactStagingDirectory)/RELEASE_NOTES.md -Encoding UTF8
+
+      # Print release notes for debugging (optional)
+      Write-Host "Release Notes:"
+      Write-Host $releaseNotes
   displayName: 'Generate Release Notes'
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Build.ArtifactStagingDirectory)/CHANGELOG.md'
+    targetPath: '$(Build.ArtifactStagingDirectory)/RELEASE_NOTES.md'
     artifact: 'ReleaseNotes'
   displayName: 'Publish Release Notes Artifact'
