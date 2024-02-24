@@ -60,3 +60,19 @@ steps:
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
     nuGetFeedType: 'external'
     publishFeedCredentials: 'BarbBStyle'
+
+- task: UseNode@1
+  inputs:
+    versionSpec: '14.x'
+    checkLatest: true
+
+- script: |
+    npm install -g semantic-release @semantic-release/changelog
+    semantic-release
+  displayName: 'Generate Release Notes'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Build.SourcesDirectory)/CHANGELOG.md'
+    artifact: 'ReleaseNotes'
+  displayName: 'Publish Release Notes'
