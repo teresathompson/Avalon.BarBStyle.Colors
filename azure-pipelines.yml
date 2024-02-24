@@ -62,20 +62,18 @@ steps:
 #     nuGetFeedType: 'external'
 #     publishFeedCredentials: 'BarbBStyle'
 
+- task: UseNode@1
+  inputs:
+    version: '14.x'
+    checkLatest: true
+
 - script: |
     npm install -g conventional-changelog-cli
     conventional-changelog -p angular -i $(Build.ArtifactStagingDirectory)/CHANGELOG.md -s
   displayName: 'Generate Release Notes'
 
-- task: CopyFiles@2
-  inputs:
-    SourceFolder: '$(Build.ArtifactStagingDirectory)'
-    Contents: '**/*.md'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)/ReleaseNotes'
-  displayName: 'Copy Release Notes'
-
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: $(Pipeline.Workspace).
-    artifact: Changelog
-    publishLocation: 'pipeline'
+    targetPath: '$(Build.ArtifactStagingDirectory)/CHANGELOG.md'
+    artifact: 'ReleaseNotes'
+  displayName: 'Publish Release Notes Artifact'
