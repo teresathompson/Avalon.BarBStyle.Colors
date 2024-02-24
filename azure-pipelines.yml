@@ -54,13 +54,13 @@ steps:
     packDestination: '$(Build.ArtifactStagingDirectory)'
 
     
-- task: NuGetCommand@2
-  displayName: 'Enviando NuGet'
-  inputs:
-    command: 'push'
-    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
-    nuGetFeedType: 'external'
-    publishFeedCredentials: 'BarbBStyle'
+# - task: NuGetCommand@2
+#   displayName: 'Enviando NuGet'
+#   inputs:
+#     command: 'push'
+#     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+#     nuGetFeedType: 'external'
+#     publishFeedCredentials: 'BarbBStyle'
 
 - task: UseNode@1
   inputs:
@@ -68,15 +68,14 @@ steps:
     checkLatest: true
 
 - script: |
-    npm install -g semantic-release @semantic-release/changelog
-    semantic-release
-  displayName: 'Generate Release Notes'
+    npm install -g conventional-changelog-cli
+    conventional-changelog -p angular -i CHANGELOG.md -s
+    displayName: 'Generate Release Notes'
 
 - task: PublishPipelineArtifact@1
-  displayName: 'Publish Release Notes'
   inputs:
-    targetPath: '$(Pipeline.Workspace)'
-    artifact: 'CHANGELOG.md'
-    publishLocation: 'pipeline'  
+    targetPath: '$(Build.SourcesDirectory)/CHANGELOG.md'
+    artifact: 'ReleaseNotes'
+    displayName: 'Publish Release Notes'
     
 
