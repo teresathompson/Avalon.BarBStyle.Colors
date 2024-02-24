@@ -73,7 +73,10 @@ steps:
   displayName: 'Generate Release Notes'
 
 - task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(Build.SourcesDirectory)/CHANGELOG.md'
-    artifact: 'ReleaseNotes'
   displayName: 'Publish Release Notes'
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    artifact: 'CHANGELOG.md'
+    publishLocation: 'pipeline'  
+    
+
