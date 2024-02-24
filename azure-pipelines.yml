@@ -76,7 +76,6 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Build.ArtifactStagingDirectory)/ReleaseNotes'
-    artifact: 'ReleaseNotes'
-  displayName: 'Publish Release Notes Artifact'
-
+    targetPath: $(Pipeline.Workspace).
+    artifact: Changelog
+    publishLocation: 'pipeline'
